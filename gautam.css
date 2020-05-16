@@ -393,3 +393,176 @@ footer{
     margin-top: 20px;
     }
 }
+
+/* progress bar */
+
+#about {
+    height: auto;
+}
+
+.skills {
+	color: black;
+  width: 80%;
+  background-color: #141418aa;
+	height: 80%;
+	min-height: 60%; 
+	margin: 5% 10%;
+}
+
+.front-end {
+	display: flex;
+	flex-direction: column;
+}
+
+.back-end {
+	display: flex;
+	flex-direction: column;
+}
+
+.skills li {
+	margin: 20px 0;
+	display: block;
+}
+
+.skills h1 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+
+}
+
+li h3 {
+	font-family: Open Sans;
+	font-size: 20px;
+}
+
+.bar {
+	background: #353b48;
+	display: block;
+	height: 30px;
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	border-radius: 3px;
+	overflow: hidden;
+	text-align: center;
+	color: black;
+	font-size: 23px;
+	font-weight: 600;
+	box-shadow: 0 0 10px #2187e7b3;
+}
+
+.bar span {
+	height: 30px;
+	float: left;
+	background: linear-gradient(to right, #1e9600, #fff200, #ff0000);
+}
+
+.html {
+	width: 70%;
+	animation: html 2s;
+}
+
+.css {
+	width: 50%;
+	animation: css 2s;
+}
+
+.jquery {
+	width: 40%;
+	animation: jquery 2s;
+}
+
+.javascript {
+	width: 60%;
+	animation: javascript 2s;
+}
+
+.sass {
+	width: 65%;
+	animation: sass 2s;
+}
+
+.c-lang {
+	width: 75%;
+	animation: c-lang 2s;
+}
+
+.boot-4 {
+	width: 50%;
+	animation: boot 2s;
+}
+
+.nodejs {
+	width: 60%;
+	animation: nodejs 2s;
+}
+
+.mondb {
+	width: 45%;
+	animation: mondb 2s;
+}
+
+@keyframes html {
+	0% {
+		width: 0;
+	}
+	100% {
+		width: 70%;
+	}
+}
+
+@keyframes css {
+	0% {
+		width: 0;
+	}
+	100% {
+		width: 50%;
+	}
+}
+
+@keyframes jquery {
+	0% {
+		width: 0;
+	}
+	100% {
+		width: 40%;
+	}
+}
+
+@keyframes javascript {
+	0% {
+		width: 0;
+	}
+	100% {
+		width: 60%;
+	}
+}
+
+@keyframes sass {
+	0% {
+		width: 0;
+	}
+	100% {
+		width: 65%;
+	}
+}
+
+@keyframes c-lang {
+	0% {
+		width: 0;
+	}
+	100% {
+		width: 75%;
+	}
+}
+
+@keyframes boot{
+	0% {
+		width: 0;
+	}
+	100% {
+		width: 50%;
+	}
+}
+
