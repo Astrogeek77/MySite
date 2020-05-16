@@ -240,13 +240,16 @@ main {
   background-color: cadetblue;
 }
 
+/* Intro Section */
+
 #intro {
   color: white;
   background: linear-gradient(to bottom right, #030a3552, #3437f52a), url(/gautam-1.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
+  height: auto;
+  min-height: 100vh;
   overflow-wrap: normal;
 }
 
@@ -263,8 +266,6 @@ main {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 2.5rem;
 }
-
-
 
 #projects {
   height: 100vh;
@@ -447,13 +448,13 @@ footer{
 .social-media a{
   color: #001a21;
   margin-right: 25px;
-  font-size: 22px;
+  font-size: 30px;
   text-decoration: none;
   transition: .3s linear;
 }
 
 .social-media a:hover{
-  color: #fc5c65;
+  color: #e9121d;
 }
 
 .right-col h1{
@@ -463,7 +464,7 @@ footer{
 .border{
   width: 100px;
   height: 4px;
-  background: #fc5c65;
+  background: #1addf7;
 }
 
 .newsletter-form{
@@ -490,7 +491,7 @@ footer{
   padding: 18px 40px;
   font-size: 16px;
   color: #f1f1f1;
-  background: #fc5c65;
+  background: navy;
   border: none;
   font-weight: 700;
   outline: none;
@@ -533,6 +534,15 @@ footer{
     margin: 0;
     width: 100%;
     margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .intro-text .intro-text-content {
+      margin: 3% 1%;
+      margin-left: 2%;
+      font-family: 'Source Sans Pro', sans-serif;
+      font-size: 1.5rem;
     }
 }
 
