@@ -5,8 +5,8 @@ const themeMap = {
     solar: "dark"
 };
 
-const theme = localStorage.getItem('theme')
-    || (tmp = Object.keys(themeMap)[0],
+const theme = localStorage.getItem('theme') ||
+    (tmp = Object.keys(themeMap)[0],
         localStorage.setItem('theme', tmp),
         tmp);
 const bodyClass = document.body.classList;
@@ -25,9 +25,9 @@ document.getElementById('themeButton').onclick = toggleTheme;
 
 // Type Script
 new TypeIt("#intro-heading", {
-    speed: 60,
-    loop: true
-}).type("Hello, I am Gautam Jain")
+        speed: 60,
+        loop: true
+    }).type("Hello, I am Gautam Jain")
     .pause(8000)
     .delete()
     .pause(1000)
@@ -35,6 +35,23 @@ new TypeIt("#intro-heading", {
     .pause(8000)
     .delete()
     .go()
+
+new TypeIt("#project-heading", {
+        speed: 60,
+        loop: true
+    }).type("My Projects")
+    .pause(8000)
+    .delete()
+    .go()
+
+// image-grid
+$(".owl-carousel").owlCarousel({
+    items: 2,
+    margin: 20,
+    loop: true,
+    center: true,
+    dots: false
+});
 
 // Smooth Scroll Effect
 
